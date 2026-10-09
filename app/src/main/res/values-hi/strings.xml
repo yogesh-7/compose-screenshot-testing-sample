@@ -1,0 +1,11 @@
+<resources>
+    <string name="login_title">अपना फ़ोन नंबर दर्ज करें</string>
+    <string name="login_subtitle">साइन इन करने के लिए हम आपको एक बार का कोड भेजेंगे</string>
+    <string name="login_phone_label">फ़ोन नंबर</string>
+    <string name="login_continue">आगे बढ़ें</string>
+
+    <string name="profile_member">%1$s सदस्य</string>
+    <string name="profile_free">मुफ़्त प्लान</string>
+    <string name="profile_coins">%1$d कॉइन्स</string>
+    <string name="profile_edit">प्रोफ़ाइल बदलें</string>
+</resources>

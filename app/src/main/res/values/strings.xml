@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Screenshot Testing Sample</string>
+
+    <string name="login_title">Enter your phone number</string>
+    <string name="login_subtitle">We\'ll send you a one-time code to sign in</string>
+    <string name="login_phone_label">Phone number</string>
+    <string name="login_continue">Continue</string>
+
+    <string name="profile_member">%1$s member</string>
+    <string name="profile_free">Free plan</string>
+    <string name="profile_coins">%1$d coins</string>
+    <string name="profile_edit">Edit profile</string>
+</resources>

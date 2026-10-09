@@ -1,0 +1,24 @@
+[versions]
+# Screenshot tests need AGP 9.5.0-alpha03 or newer. alpha08 is reported broken for them.
+agp = "9.5.0-alpha07"
+kotlin = "2.2.10"
+compose = "1.11.4"
+compose-material3 = "1.4.0"
+activity = "1.12.4"
+core = "1.18.0"
+screenshot = "0.0.1-alpha16"
+
+[libraries]
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "core" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity" }
+androidx-compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
+androidx-compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "compose" }
+androidx-compose-material3 = { module = "androidx.compose.material3:material3", version.ref = "compose-material3" }
+androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
+androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
+screenshot-validation-api = { module = "com.android.tools.screenshot:screenshot-validation-api", version.ref = "screenshot" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+# The only Kotlin plugin needed: AGP compiles Kotlin itself (built-in Kotlin).
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
