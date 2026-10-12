@@ -1,6 +1,6 @@
 [versions]
 # Screenshot tests need AGP 9.5.0-alpha03 or newer. alpha08 is reported broken for them.
-agp = "9.5.0-alpha07"
+agp = "9.5.0-alpha08"
 kotlin = "2.2.10"
 compose = "1.11.4"
 compose-material3 = "1.4.0"
